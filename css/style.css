@@ -51,14 +51,14 @@ h1 {
 .text-center {
   text-align: center;
 }
-.search-btn {
+/* .search-btn {
   background-color: transparent;
   border: none;
   cursor: pointer;
   color: white;
   font-size: 1.1em;
   font-weight: bold;
-}
+} */
 .search-group {
   background-color: #F2CF1D;
   color: white;
@@ -66,10 +66,14 @@ h1 {
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 2em;
+  font-weight: bold;
 }
 .bg-fade {
   background-color: rgba(22, 20, 20, 0.5) !important;
 }
 .text-white {
   color: #ffffff;
+}
+#map {
+  display: none;
 }
