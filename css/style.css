@@ -18,11 +18,8 @@ h1 {
     padding-left: 2em;
   }
 .container-fluid {
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
   }
 .button {
     display: inline-block;
@@ -76,4 +73,19 @@ h1 {
 }
 #map {
   display: none;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+#local-weather {
+  height: 200px;
+}
+#map-img {
+  grid-template-columns: 2fr;
+}
+/* .table, .table tr, .table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+} */
+.table tr {
+  line-height: 2em;
 }
